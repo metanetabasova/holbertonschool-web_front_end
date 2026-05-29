@@ -237,23 +237,23 @@ html {
   }
   
   body,
-  a {
+  a[href] {
     color: var(--text-color);
   }
   
-  a:link {
+  a[href]:link {
     text-decoration: none;
   }
   
-  a:visited {
+  a[href]:visited {
     font-style: italic;
   }
   
-  a:hover {
+  a[href]:hover {
     text-decoration: underline;
   }
   
-  a:active {
+  a[href]:active {
     background-color: var(--color-light-grey);
   }
   
@@ -397,6 +397,6 @@ html {
     display: block;
   }
   
-  .social-link svg {
+  .social-link > svg {
     fill: var(--text-color);
   }
