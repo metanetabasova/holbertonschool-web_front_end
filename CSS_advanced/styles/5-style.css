@@ -18,6 +18,16 @@
     font-size: 62.5%;
   }
   
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+  
   body {
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
