@@ -1,0 +1,1 @@
+Bu layihə, modern dizayn prinsiplərinə uyğun olaraq sırf HTML və CSS vasitəsilə hazırlanmış bir [məsələn: veb sayt / komponent / interfeys] işidir.
